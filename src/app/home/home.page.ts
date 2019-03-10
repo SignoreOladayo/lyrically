@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
+  searchParams = {
+    artist: '',
+    title:''
+  }
+
+  constructor() {
+
+  }
+
+  search() {
+    console.log(this.searchParams.artist)
+    console.log(this.searchParams.title)
+  }
 }

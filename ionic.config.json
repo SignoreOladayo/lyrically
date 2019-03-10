@@ -1,5 +1,7 @@
 {
   "name": "lyrically",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
